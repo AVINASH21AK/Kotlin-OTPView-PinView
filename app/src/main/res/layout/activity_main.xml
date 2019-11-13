@@ -43,7 +43,8 @@
     app:itemSpacing="6dp"
     app:lineColor="@color/otp_item_state"
     app:state_filled="true"
-    app:viewType="line" />
+    app:viewType="line"
+                      android:focusableInTouchMode="true"/>
 
   <Button
     android:id="@+id/validate_button"
