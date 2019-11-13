@@ -58,6 +58,7 @@ Okay seems like you integrated the library in your project but **how do you use 
       app:itemCount="6"
       app:lineColor="@color/colorPrimary"
       app:viewType="line"
+                     android:focusableInTouchMode="true"
       />
 .....
 ```
